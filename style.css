@@ -1,0 +1,22 @@
+/*
+Theme Name: Cosmos
+Theme URI: https://cosmos_traducao.com
+Description: Capacitação Byron
+Author: Bruna Muñoz
+Author URI: https://cosmos_traducao.com
+Version: 1.0
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: url(assets/images/Bg.jpg) center top;
+    height: 1200px;
+}
+
+.wrap {
+    margin: 0 auto;
+}

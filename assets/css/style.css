@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* === MOBILE FIRST === */
+
+    /* === centralização vertical do logo === */
+    .logo {
+        display: inline-block;
+        height: 100%;
+    }
+
+    .logo>img {
+        position: absolute;
+        top: 5%;
+        transform: translateY(-50%);
+    }
+
+    /* === MAIN === */
+    .parallax-container {
+        height: 250px;
+        margin-bottom: 7em;
+    }
+
+     main section {
+        padding: 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    main section p {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: .5em;
+        transition: .3s;
+    }
+
+    #button {
+        margin-bottom: 7em;
+    }
+
+    /* === SERVIÇOS === */
+    #serv-title {
+        border-top: 1px solid black;
+        padding-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    #servicos {
+        margin-top: 2em;
+    
+    }
+
+    #servicos-3 {
+        margin-top: 2em;
+        margin-bottom: 7em;
+    }
+
+     /* === SOBRE === */
+     #sobre-title {
+        border-top: 1px solid black;
+        padding-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    #aluna {
+        text-align: right;
+    }
+
+    #orange {
+        text-align: right;
+        color: orangered;
+    }
+
+    .card-content {
+        margin-bottom: 7em;
+    }
+
+    /* === PROJETO === */
+    #projeto-title {
+        border-top: 1px solid black;
+        padding-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .projeto-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        width: 50%;
+    }
+
+    .doc-img {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 10%;
+    }
+
+    #doc3 {
+        margin-bottom: 7em;
+    }
+
+    /* === CONTATO === */
+    #contato-title {
+        border-top: 1px solid black;
+        padding-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    form {
+        margin-top: 2em;
+    }
+
+/* === TABLET === */
+
+@media screen and (min-width: 600px) {
+    .logo>img {
+        top: 10%;
+    }
+
+    .parallax-container {
+        height: 500px;
+    }
+}
+
+/* === PC === */
+
+@media screen and (min-width: 992px) {
+   .logo>img {
+        top: 100%;
+    }
+
+    .parallax-container {
+        height: 900px;
+    }
+}
